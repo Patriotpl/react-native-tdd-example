@@ -9,14 +9,14 @@
  */
 
 import React from 'react';
-import {View, Text, StyleSheet} from "react-native";
+import {Text, StyleSheet} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
 const App = () => {
   return (
-    <View style={styles.container}>
+    <LinearGradient style={styles.container} colors={['#fff', '#000']}>
       <Text testID={'test-text'}>test title</Text>
-    </View>
+    </LinearGradient>
   );
 };
 
